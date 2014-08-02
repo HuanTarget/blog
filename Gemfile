@@ -9,9 +9,10 @@ gem 'jquery-rails'
 gem 'rspec-rails'
 gem 'capybara'
 gem 'turbolinks'
-
+gem 'bootstrap-sass'
 gem 'jbuilder', '~> 2.0'
-
+gem 'less-rails'
+gem 'therubyracer'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-
+gem 'sprockets'
 gem 'spring',        group: :development
