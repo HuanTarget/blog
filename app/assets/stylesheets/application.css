@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(151, 209, 232);
+    background-color: rgb(154, 156, 137);
     padding: 0;
 }
 
@@ -12,7 +12,8 @@ a {
     text-decoration: none;
     color: black;
 }
-ul li {
+
+.menu_item {
     display: inline;
     list-style-type: none;
     margin-right: 20px;
