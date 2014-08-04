@@ -6,19 +6,4 @@ describe 'welcome/index' do
     visit "/"
     page.should have_title("HuanTarget | Home")
   end
-  
-  it 'Has header' do
-    visit "/"
-    page.should have_content("Header")
-  end
-
-  it 'Has content' do
-    visit "/"
-    page.should have_content("Hello")
-  end
-
-  it 'Has footer' do
-    visit "/"
-    page.should have_content("Footer")
-  end
 end
