@@ -3,8 +3,17 @@
 $brightOrange: rgb(250, 92, 7);
 $white: rgb(255, 255, 255);
 $black: rgb(0, 0, 0);
+
+body {
+    padding-top: 70px;
+}
+
 #header {
     background-color: $brightOrange;
+}
+
+.navbar .nav > li > a {
+    color:  black;
 }
 
 #logo {

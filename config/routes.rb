@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
-  match '/contact', to: 'welcome#contact', via: 'get'
+  root 'static_pages#home'
+
+  match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/about', to: 'static_pages#about', via: 'get'
+
+  match '/signup', to: 'users#new', via: 'get'
 end
