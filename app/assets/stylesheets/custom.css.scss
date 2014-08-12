@@ -6,6 +6,14 @@ $black: rgb(0, 0, 0);
 
 body {
     padding-top: 70px;
+    background-color: green;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+html {
+        padding-left: 0px;
+    padding-right: 0px;
 }
 
 #header {
@@ -31,4 +39,23 @@ body {
 #logo:hover {
   color: $white;
   text-decoration: none;
+}
+
+#avatar {
+    display: inline-block;
+    border-radius: 100px;
+    left: 50px;
+}
+
+.jumbotron {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    flow: right;
+}
+
+.container-fluid {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
 }
